@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Headache2.css">
+    <meta charset="utf-8" />
+    <title>About Us</title>
+</head>
+
+
+<div class="header">
+    	<a href="index.html"><img class="logo" src="Images/logo-2019.png"/></a>
+
+		<div>
+        	<a href="registration.html">
+        	<span class="navigation" style="padding-right:15px; display:inline-block;">Registration</span>
+            </a>
+            <a href="contact-us.html">
+			<span class="navigation">Contact Us</span>
+            </a>
+            <a href="race-info.html">
+			<span class="navigation">Race Info</span>
+            </a>
+            <a href="about-us.html">
+    		<span class="navigation">About Us</span>
+            </a>
+            <div class="clear"></div>
+        </div>
+           
+            
+</div>
+
+
+	
+<div class="about-us">
+    
+	<div><img class="banner" src="Images/U+portal+copy+KV_R1.jpg"></div>
+	<div class="about-text">ABOUT US</div>
+	
+	<div class="about-us-content">
+		
+		<p style="color:black; text-align:center; font-size:20px;">Income Eco Run is Southeast Asia’s premier eco-run which champions environmental conservation and aims to encourage everyone to play their part in supporting the cause for zero waste.<br><br>
+
+The 2019 edition will take place on Sunday, 28 April 2019, at the F1 Pit Building, and includes the following categories:<br><br>
+
+• 21.1km Half Marathon<br><br>
+• 10km / 10km Mixed Team<br><br>
+• Zero Waste 5km Run<br><br>
+• 1.2km Kids Dash<br><br>
+• 800m Kids Dash<br><br>
+
+Regardless of the distance you wish to run, we would like to encourage you to be a ‘Zero Waste Runner’, and pledge to be eco-friendly! Your race entitlements as a ‘Zero Waste Runner’ will differ from other participants. For example, if you are competing in the 21.1km half marathon, you will not receive a finisher tee or medal, to champion the cause for zero waste.<br><br>
+
+For Income Eco Run 2019, we will be introducing our first Zero Waste 5km run. All runners in this category will be ‘Zero Waste Runners’ and will receive a light and handy reusable cup in our bid to make hydration stations at this category 100% paper cup-free. ‘Zero Waste Runners’ for other categories - 10km and 21.1km Half Marathon - are also encouraged to use the reusable cup during the race to make a difference to the cause.<br><br>
+
+Come join in the fun and do your part for a greener environment!<br><br>
+		
+		</p></div>
+
+        <div class="clear"></div>
+      
+	</div>	
+	
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/4f01a7-Bonus-nice-pic-copy.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/26814553_10155995516930629_5232443507360648786_n.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/contact-bg.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+	
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/Eco-Run-Waste-Generation.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>	
+
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/income-eco-run-2017-1280-960x540.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+	
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/Income-Eco-Run-2017-Race-Review-3.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/income-eco-run-2017-medal.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+	
+ <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="Images/Income-Eco-Run-2017-Race-Results-4.jpg" style="width:1100px; height:580px;">
+    <div class="text"></div>
+  </div>
+	
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+	<span class="dot" onclick="currentSlide(8)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>	
+	
+<div id="tupperware">
+<div id="boomboom">
+<div class="about-text" style=font-size:"100px">COUNTDOWN TO RACE DAY</div>	
+	
+<p id="countdown"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Apr 28, 2019 05:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="countdown"
+  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+	</div>
+	</div>
+	
+<div class="footer" style="display: inline-block; margin-bottom: -20px; margin-top: 50px;">
+   	  <div class="copyright"><sup>©</sup> 2019 Income. All rights reserved</div>
+	  <div><a href="https://www.facebook.com/IncomeEcoRun/"><img class="social-media" src="Images/facebook.png"> </img></a></div>
+	  <div><a href="https://www.income.com.sg/"><img class="social-media2" style="margin-left: 0.5%" src="Images/imageedit_22_9744558610.png"> </img></a></div>
+      <div class="clear"></div>
+</div>
+
+</body>
+</html>
+
