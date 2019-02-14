@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Headache2.css">
+    <meta charset="utf-8" />
+    <title>Income Run Marathon</title>
+</head>
+<body>
+
+<div class="header">
+    	<a href="Index.html"><img class="logo" src="Images/logo-2019.png"/></a>
+
+		<div>
+        	<a href="registration.html">
+        	<span class="navigation" style="padding-right:15px; display:inline-block;">Registration</span>
+            </a>
+            <a href="contact-us.html">
+			<span class="navigation">Contact Us</span>
+            </a>
+            <a href="race-info.html">
+			<span class="navigation">Race Info</span>
+            </a>
+            <a href="about-us.html">
+    		<span class="navigation">About Us</span>
+            </a>
+            <div class="clear"></div>
+        </div>
+
+		
+
+	
+<video autoplay muted loop id="myVideo">
+  <source src="incomerun2018vid.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+  <h1>WELCOME TO INCOME ECO RUN 2019</h1>
+  <p><span class=vidvid>Come join us and make the world a cleaner and a greener place. Your efforts and participations will greatly contribute to charitable organisations. So come, mark down on your calender and save the date for the run, 28 April 2019 at F1 Pit Building! See you guys there!</span></p>
+
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+        
+            
+    </div>
+	
+<div class="footer" style="display: inline-block; margin-bottom: -20px; margin-top: 50px;">
+   	  <div class="copyright"><sup>©</sup> 2018 Income. All rights reserved</div>
+	  <div><a href="https://www.facebook.com/IncomeEcoRun/"><img class="social-media" src="Images/facebook.png"> </img></a></div>
+	  <div><a href="https://www.income.com.sg/"><img class="social-media2" style="margin-left: 0.5%" src="Images/imageedit_22_9744558610.png"> </img></a></div>
+      <div class="clear"></div>
+</div>
+	
+	
+
+</body>
+</html>
+
